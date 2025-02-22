@@ -1,0 +1,107 @@
+.home-div
+{
+   position: relative;
+    left: 520px;
+    top: 100px;
+    max-width: fit-content; 
+}
+
+.home-div h1
+{
+    font-size: 50px;
+    color: white;
+    font-family: cursive;
+}
+
+.home-div h1 {
+    font-size: 50px;
+    color: white;
+    font-family: cursive;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid white;
+    width: 0;
+    animation: typewriter 3s steps(30) forwards, blink 0.5s infinite alternate;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-color: transparent;
+    }
+    to {
+        border-color: white;
+    }
+}
+
+.home-div {
+    text-align: center;
+    margin-top: 100px; /* Adjust based on navbar */
+  }
+  
+  .home-h1 {
+    font-size: 3rem;
+    color: white;
+  }
+  
+  .home-h2-container {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 60px; 
+    position: relative;
+  }
+  
+  .home-h2 {
+    position: absolute;
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 0;
+    white-space: nowrap; 
+    animation: fadeInOut 6s infinite;
+  }
+  
+  .home-h2:nth-child(1) { animation-delay: 0s; color: #ff5733; }  
+  .home-h2:nth-child(2) { animation-delay: 2s; color: #33ff57; }  
+  .home-h2:nth-child(3) { animation-delay: 4s; color: #3357ff; } 
+  
+  @keyframes fadeInOut {
+    0% { opacity: 0; transform: translateY(10px); }
+    10% { opacity: 1; transform: translateY(0); }
+    30% { opacity: 1; } 
+    50% { opacity: 0; transform: translateY(-10px); }
+    100% { opacity: 0; }
+  }
+
+/* Resume Button Styling */
+.resume-btn {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(135deg, #007bff, #00d4ff); /* Blue Gradient */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+  }
+  
+  .resume-btn:hover {
+    background: linear-gradient(135deg, #0056b3, #00aaff); /* Darker Blue */
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.4);
+  }
+  
+  .resume-btn:active {
+    transform: scale(0.95);
+  }
+  
