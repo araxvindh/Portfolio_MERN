@@ -1,11 +1,13 @@
-import Navbar from "./components/functionalComponents/NavBar"
+
 import Skills from "./components/functionalComponents/Skills"
 import Home from "./components/functionalComponents/Home"
 import Project from "./components/functionalComponents/Project"
 import About from "./components/functionalComponents/About"
 import Contact from "./components/functionalComponents/Contact"
 import{BrowserRouter as Router, Route, Routes} from 'react-router-dom'
-function App() {
+import Navbar from "./components/functionalComponents/Navbar"
+
+function App() { 
   return (
       <main>
           <Router>

@@ -1,0 +1,25 @@
+.about-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers the content */
+    justify-content: center;
+    max-width: 80%; /* Prevents excessive width */
+    margin: 100px auto; /* Centers the div */
+    text-align: center; /* Aligns text in the center */
+    overflow: hidden; /* Prevents sliding */
+}
+
+
+.about-div h1
+{
+    font-size: 50px;
+    color: white;
+    font-family: cursive;
+}
+
+.about-div h2
+{
+    font-size: 30px;
+    color: white;
+    font-family: cursive;
+}
