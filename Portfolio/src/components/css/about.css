@@ -1,12 +1,12 @@
 .about-div {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers the content */
+    align-items: center; 
     justify-content: center;
-    max-width: 80%; /* Prevents excessive width */
-    margin: 100px auto; /* Centers the div */
-    text-align: center; /* Aligns text in the center */
-    overflow: hidden; /* Prevents sliding */
+    max-width: 80%; 
+    margin: 100px auto; 
+    text-align: center;
+    overflow: hidden; 
 }
 
 
